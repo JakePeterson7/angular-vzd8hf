@@ -10,6 +10,13 @@ import { ProductListComponent } from './product-list/product-list.component';
 import {ProductDetailsComponent } from
 './product-details/product-details.component';
 
+import {ProductAlertsComponent } from
+'./product-alerts/product-alerts.component';
+
+import{ CartComponent } from './cart/cart.compone'
+
+import { HttpClientModule } from '@angular/common/http';
+
 @NgModule({
   imports: [
     BrowserModule,
@@ -23,7 +30,10 @@ import {ProductDetailsComponent } from
   declarations: [
     AppComponent,
     TopBarComponent,
-    ProductListComponent
+    ProductListComponent,
+    ProductAlertsComponent,
+    ProductDetailsComponent,
+    CartComponent,
   ],
   bootstrap: [ AppComponent ]
 })
